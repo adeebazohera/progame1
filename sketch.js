@@ -57,7 +57,7 @@ function setup() {
 
 function draw() {
   background(85,73,68);
-  frameRate(30);
+  frameRate(90);
   if(back.x < 0){
       back.x = width/2;
   }
