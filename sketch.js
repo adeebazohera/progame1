@@ -25,7 +25,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   back = createSprite(width/2,height/2,10,10);
   back.addImage(backImage);
-  back.scale = width/100;
+  back.scale = width*0.0075;
  
   
   character1die.frameDelay =17;
