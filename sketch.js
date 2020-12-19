@@ -4,19 +4,19 @@ var score = 0;
 var crow,crowImage,crowImage2,character1die,gameover,gameoverImage,restart,restartImage,eagleSound,dieSound,coinSound,jumpSound;
 function preload(){
   
-   backImage = loadImage("mountainBack.png");
-   character1Image = loadAnimation("Tortoise1.png","Tortoise2.png","Tortoise3.png","Tortoise4.png","Tortoisem1.png","Tortoisem2.png","Tortoisem3.png","Tortoisem4.png"); 
-   coinImage = loadAnimation("Ring1.png","Ring2.png","Ring3.png","Ring4.png");
-   jumpImage = loadAnimation("shell1.png","shell2.png","shell3.png","shell4.png");
- crowImage = loadAnimation("crow1.png","crow2.png","crow3.png","crow4.png","crow5.png","crow6.png","crow7.png","crow8.png");
-  crowImage2 = loadAnimation("bird1.png","bird2.png","bird3.png","bird4.png");
-  character1die = loadAnimation("turtlea.png","turtleb.png","turtlec.png","turtled.png","turtlee.png","turtlee.png","turtlee.png","turtlee.png","turtlee.png","turtlee.png");
-  gameoverImage = loadImage("gameover.png");
-  restartImage = loadImage("restart.png");
-  eagleSound = loadSound("eagle.wav");
-  dieSound = loadSound("curse.wav");
-  coinSound = loadSound("bonus.wav");
-  jumpSound = loadSound("jump.wav");
+     backImage = loadImage("mountainBack.png");
+     character1Image = loadAnimation("Tortoise1.png","Tortoise2.png","Tortoise3.png","Tortoise4.png","Tortoisem1.png","Tortoisem2.png","Tortoisem3.png","Tortoisem4.png"); 
+     coinImage = loadAnimation("Ring1.png","Ring2.png","Ring3.png","Ring4.png");
+     jumpImage = loadAnimation("shell1.png","shell2.png","shell3.png","shell4.png");
+     crowImage = loadAnimation("crow1.png","crow2.png","crow3.png","crow4.png","crow5.png","crow6.png","crow7.png","crow8.png");
+     crowImage2 = loadAnimation("bird1.png","bird2.png","bird3.png","bird4.png");
+     character1die = loadAnimation("turtlea.png","turtleb.png","turtlec.png","turtled.png","turtlee.png","turtlee.png","turtlee.png","turtlee.png","turtlee.png","turtlee.png");
+     gameoverImage = loadImage("gameover.png");
+     restartImage = loadImage("restart.png");
+     eagleSound = loadSound("eagle.wav");
+     dieSound = loadSound("curse.wav");
+     coinSound = loadSound("bonus.wav");
+     jumpSound = loadSound("jump.wav");
 }
 
 
@@ -25,7 +25,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   back = createSprite(width/2,height/2,10,10);
   back.addImage(backImage);
-  back.scale = width*0.0075;
+  back.scale = width*0.006;
  
   
   character1die.frameDelay =17;
