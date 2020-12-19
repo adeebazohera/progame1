@@ -23,6 +23,7 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
+  
   back = createSprite(width/2,height/2,10,10);
   back.addImage(backImage);
   back.scale = height*0.008;
@@ -56,7 +57,7 @@ function setup() {
 
 function draw() {
   background(85,73,68);
- 
+  frameRate(30);
   if(back.x < 0){
       back.x = width/2;
   }
